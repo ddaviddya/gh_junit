@@ -49,4 +49,13 @@ class CuentaTest {
         assertEquals(900, cuenta.getSaldo().intValue());
         assertEquals("900.12345", cuenta.getSaldo().toPlainString());
     }
+
+    @Test
+    void testCreditoCuenta() {
+        Cuenta cuenta = new Cuenta("David", new BigDecimal("1000.12345"));
+        cuenta.credito(new BigDecimal(100));
+        assertNotNull(cuenta.getSaldo());
+        assertEquals(1100, cuenta.getSaldo().intValue());
+        assertEquals("1100.12345", cuenta.getSaldo().toPlainString());
+    }
 }

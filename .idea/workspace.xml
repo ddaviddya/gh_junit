@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e05549f3-f98f-40a1-bddd-86190c6945c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Cuenta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CuentaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CuentaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CuentaTest.testDebitoCuenta">
+  <component name="RunManager" selected="JUnit.CuentaTest">
     <configuration name="CuentaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_app" />
       <extension name="coverage">
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CuentaTest" />
         <item itemvalue="JUnit.CuentaTest.testDebitoCuenta" />
         <item itemvalue="JUnit.CuentaTest.testReferenciaCuenta" />
         <item itemvalue="JUnit.CuentaTest.testSaldoCuenta" />
         <item itemvalue="JUnit.CuentaTest.testNombreCuenta" />
-        <item itemvalue="JUnit.CuentaTest" />
       </list>
     </recent_temporary>
   </component>
