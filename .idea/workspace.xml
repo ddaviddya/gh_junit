@@ -55,7 +55,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CuentaTest.testReferenciaCuenta">
+  <component name="RunManager" selected="JUnit.CuentaTest.testDebitoCuenta">
     <configuration name="CuentaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_app" />
       <extension name="coverage">
@@ -67,6 +67,22 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.CuentaTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CuentaTest.testDebitoCuenta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit_app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CuentaTest" />
+      <option name="METHOD_NAME" value="testDebitoCuenta" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,6 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CuentaTest.testDebitoCuenta" />
         <item itemvalue="JUnit.CuentaTest.testReferenciaCuenta" />
         <item itemvalue="JUnit.CuentaTest.testSaldoCuenta" />
         <item itemvalue="JUnit.CuentaTest.testNombreCuenta" />

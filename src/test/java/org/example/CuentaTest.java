@@ -16,6 +16,7 @@ class CuentaTest {
 
         String esperado = "David";
         String real = cuenta.getPersona();
+        assertNotNull(real);
         Assertions.assertEquals(esperado, real);
         Assertions.assertTrue(real.equals("David"));
     }
@@ -23,6 +24,7 @@ class CuentaTest {
     @Test
     void testSaldoCuenta(){
         Cuenta cuenta = new Cuenta("David", new BigDecimal("1000.12345"));
+        assertNotNull(cuenta.getSaldo());
         assertEquals(1000.12345, cuenta.getSaldo().doubleValue());
         assertFalse(cuenta.getSaldo().compareTo(BigDecimal.ZERO) < 0);//compare -1 0 1
         assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);//compare -1 0 1
@@ -39,5 +41,12 @@ class CuentaTest {
 
     }
 
-
+    @Test
+    void testDebitoCuenta() {
+        Cuenta cuenta = new Cuenta("David", new BigDecimal("1000.12345"));
+        cuenta.debito(new BigDecimal(100));
+        assertNotNull(cuenta.getSaldo());
+        assertEquals(900, cuenta.getSaldo().intValue());
+        assertEquals("900.12345", cuenta.getSaldo().toPlainString());
+    }
 }
