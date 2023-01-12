@@ -12,10 +12,10 @@ class CuentaTest {
     @Test
     void testNombreCuenta(){
         Cuenta cuenta = new Cuenta("David", new  BigDecimal("1000.12345"));//se recomienda pasarlo en cadena
-//        cuenta.setPesona("David");
+//        cuenta.setPersona("David");
 
         String esperado = "David";
-        String real = cuenta.getPesona();
+        String real = cuenta.getPersona();
         Assertions.assertEquals(esperado, real);
         Assertions.assertTrue(real.equals("David"));
     }
@@ -34,7 +34,7 @@ class CuentaTest {
         Cuenta cuenta2 = new Cuenta("David Yallerco", new BigDecimal("8900.9997"));
 
         //comparando por instancia  , osea por referencia
-        assertNotEquals(cuenta2, cuenta); //cuenta valor real , cuenta2 valor esperado
+        //assertNotEquals(cuenta2, cuenta); //cuenta valor real , cuenta2 valor esperado
         assertEquals(cuenta2, cuenta);
 
     }
