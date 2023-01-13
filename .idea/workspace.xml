@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05549f3-f98f-40a1-bddd-86190c6945c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/models/Banco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/models/Cuenta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CuentaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CuentaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,12 +57,12 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CuentaTest.testDineroInsuficienteException">
+  <component name="RunManager" selected="JUnit.CuentaTest.transferirDineroCuentas">
     <configuration name="CuentaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,7 +77,7 @@
       <module name="junit_app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,7 +93,7 @@
       <module name="junit_app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,7 +109,7 @@
       <module name="junit_app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,7 +121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CuentaTest.testReferenciaCuenta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CuentaTest.transferirDineroCuentas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_app" />
       <extension name="coverage">
         <pattern>
@@ -129,7 +131,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.CuentaTest" />
-      <option name="METHOD_NAME" value="testReferenciaCuenta" />
+      <option name="METHOD_NAME" value="transferirDineroCuentas" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CuentaTest.transferirDineroCuentas" />
         <item itemvalue="JUnit.CuentaTest.testDineroInsuficienteException" />
         <item itemvalue="JUnit.CuentaTest.testDebitoCuenta" />
         <item itemvalue="JUnit.CuentaTest.testCreditoCuenta" />
         <item itemvalue="JUnit.CuentaTest" />
-        <item itemvalue="JUnit.CuentaTest.testReferenciaCuenta" />
       </list>
     </recent_temporary>
   </component>

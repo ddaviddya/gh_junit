@@ -1,6 +1,8 @@
 package org.example;
 
 import org.example.exceptions.DineroInsuficienteException;
+import org.example.models.Banco;
+import org.example.models.Cuenta;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -69,5 +71,19 @@ class CuentaTest {
         String actual = exception.getMessage();
         String esperado = "Dinero Insuficiente";
         assertEquals(esperado, actual);
+    }
+
+    @Test
+    void transferirDineroCuentas() {
+        Cuenta cuenta1 = new Cuenta("Ezer", new BigDecimal("2500"));
+        Cuenta cuenta2 = new Cuenta("David", new BigDecimal("1500.8989"));
+
+        Banco banco = new Banco();
+        banco.setNombre("banco de estado");
+        banco.transferir(cuenta2, cuenta1, new BigDecimal(500));
+        assertEquals("1000.8989", cuenta2.getSaldo().toPlainString());
+        assertEquals("3000", cuenta1.getSaldo().toPlainString());
+
+
     }
 }
