@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05549f3-f98f-40a1-bddd-86190c6945c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/DineroInsuficienteException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CuentaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CuentaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,7 +55,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CuentaTest.testDebitoCuenta">
+  <component name="RunManager" selected="JUnit.CuentaTest.testDineroInsuficienteException">
     <configuration name="CuentaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_app" />
       <extension name="coverage">
@@ -102,6 +103,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CuentaTest.testDineroInsuficienteException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit_app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CuentaTest" />
+      <option name="METHOD_NAME" value="testDineroInsuficienteException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CuentaTest.testReferenciaCuenta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_app" />
       <extension name="coverage">
@@ -118,29 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CuentaTest.testSaldoCuenta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CuentaTest" />
-      <option name="METHOD_NAME" value="testSaldoCuenta" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CuentaTest.testDineroInsuficienteException" />
         <item itemvalue="JUnit.CuentaTest.testDebitoCuenta" />
         <item itemvalue="JUnit.CuentaTest.testCreditoCuenta" />
         <item itemvalue="JUnit.CuentaTest" />
         <item itemvalue="JUnit.CuentaTest.testReferenciaCuenta" />
-        <item itemvalue="JUnit.CuentaTest.testSaldoCuenta" />
       </list>
     </recent_temporary>
   </component>
