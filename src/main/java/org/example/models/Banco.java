@@ -14,6 +14,7 @@ public class Banco {
     }
 
     public void transferir(Cuenta origen, Cuenta destino, BigDecimal monto){
-
+        origen.debito(monto);
+        destino.credito(monto);
     }
 }
