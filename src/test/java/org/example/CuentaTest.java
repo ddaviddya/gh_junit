@@ -67,7 +67,7 @@ class CuentaTest {
             cuenta.debito(new BigDecimal(1500));
         });
         String actual = exception.getMessage();
-        String esperado = "Dinero insuficiente";
+        String esperado = "Dinero Insuficiente";
         assertEquals(esperado, actual);
     }
 }
